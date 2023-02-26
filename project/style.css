@@ -1,0 +1,93 @@
+@font-face{
+    font-family: raleway;
+    src: url(font/Raleway-ExtraLight.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(70,32,32,0.3)), url(images/banner.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+}
+
+ul{
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+li{
+    display: inline;
+    margin-top: 40px;
+}
+
+li a{
+    font-family: raleway;
+    text-decoration: none;
+    font-style: 15px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 25px;
+    border: 1px solid transparent;
+}
+
+li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.logo, .heading{
+   font-family: raleway;
+   color: white;
+   margin-top: 20px;
+   padding: 20px;
+   width: 50%;
+}
+
+ul li.active a{
+   background-color: white;
+   color: black;
+}
+
+.title{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    white-space: pre;
+    transform: translate(-50%, -50%);
+}
+
+.heading{
+    font-size: 45px;
+}
+
+.button-item{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 15px 35px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: raleway;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: .7s ease;
+}
